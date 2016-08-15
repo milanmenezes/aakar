@@ -1,2 +1,0 @@
-# aakar
-Civil Fest, NIE

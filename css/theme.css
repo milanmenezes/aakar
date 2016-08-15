@@ -72,7 +72,7 @@ img.aakar
   position: absolute;
   top: 80%;
   font-size: 400%;
-  color: red;
+  color: #660000;
   width: 100%;
   font-family: 'Shrikhand', cursive;
 
@@ -462,9 +462,16 @@ background-color:transparent;
  
 }
 
+
 }
 
 @media screen and (orientation: portrait) {
+
+  .hospitality img {
+  -webkit-filter:opacity(90%); /* Chrome, Safari, Opera */
+    filter: opacity(90%);
+}
+
   .soc {
       
       max-width: 100%;
@@ -559,7 +566,7 @@ font-family: 'Shrikhand', cursive;
 
 }
 .box:hover {
-  
+  cursor: pointer;
 }
 .event_img img{
   width: 100%;  
