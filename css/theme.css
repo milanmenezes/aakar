@@ -639,3 +639,19 @@ body {
   }
 
   }
+
+  .gal img{
+    height: 330px;
+  }
+
+  @media screen and (orientation: portrait) {
+ .gal img {
+  height: auto;
+ }
+
+  }
+
+  .gallery {
+  font-family: 'Shrikhand', cursive;
+  
+}
