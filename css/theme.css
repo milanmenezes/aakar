@@ -386,6 +386,9 @@ margin-bottom:10px;
 text-transform: uppercase;
  -webkit-transition:all .4s linear;
   transition:all .4s linear;
+  font-family: 'Shrikhand', cursive;
+  color:      #3CB371;
+  
 
 }
 
@@ -399,9 +402,9 @@ overflow:hidden;
 top:30%;
 left:0;
 opacity:1;
-color: white;
 -webkit-transition:all .4s linear;
 transition:all .4s linear;
+
 
 
 }
@@ -416,7 +419,6 @@ overflow:hidden;
 top:30%;
 left:0;
 opacity:1;
-color: white;
 -webkit-transition:all .4s linear;
 transition:all .4s linear;
 
@@ -438,7 +440,6 @@ top:40%;
 max-height: 18%;
 opacity:1;
 font-size: 80px;
-color: white;
 font-weight: 300;
     text-transform: uppercase;
 
@@ -451,7 +452,6 @@ overflow:hidden;
 top:40%;
 opacity:1;
 font-size: 80px;
-color: white;
 font-weight: 300;
     text-transform: uppercase;
 
@@ -654,4 +654,20 @@ body {
   .gallery {
   font-family: 'Shrikhand', cursive;
   
+}
+
+.post img {
+  max-width: 100%;
+}
+.post {
+  margin-top: 20px;
+}
+@media screen and (orientation: portrait) {
+.post {
+  margin-top: 5px;
+}
+.post img{
+  margin-top: 10px;
+}
+
 }
